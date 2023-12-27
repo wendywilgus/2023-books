@@ -39,6 +39,11 @@ function Navbar() {
             </Link>
           </li>
           <li className='nav-item'>
+            <Link to='/bookshelf' className='nav-links' onClick={closeMobileMenu}>
+              Monthly Bookshelf
+            </Link>
+          </li>
+          <li className='nav-item'>
             <Link to='/favorites' className='nav-links' onClick={closeMobileMenu}>
               My Favorites
             </Link>

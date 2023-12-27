@@ -6,8 +6,7 @@
   }
   
   .home,
-  .services,
-  .products,
+  .favorites
   .full-list {
     display: flex;
     height: 90vh;
@@ -16,7 +15,7 @@
     font-size: 3rem;
   }
   
-  .services {
+  .favorites {
     background-image: url('');
     background-position: center;
     background-size: cover;
@@ -24,18 +23,9 @@
     color: #fff;
     font-size: 100px;
   }
-  
-  .products {
-    background-image: url('');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
+    
   .full-list {
-    background-image: url('/public/assets/general/max-fuchs-Nm6ojlDO-5c-unsplash.jpg');
+    background-image: url('/src/assets/general/max-fuchs-Nm6ojlDO-5c-unsplash.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
