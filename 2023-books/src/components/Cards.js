@@ -1,8 +1,8 @@
 import React from 'react';
-import CardItem from '../CardItem';
+import CardItem from './CardItem';
 import './Cards.css';
-import sysk from "../../assets/jan/nonfiction/SYSK.png";
-import gentleman from "../../assets/jan/fiction/Gentleman.png";
+import sysk from "../assets/jan/nonfiction/SYSK.png";
+import gentleman from "../assets/jan/fiction/Gentleman.png";
 
 function Cards() {
   return (
