@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Favorites from './components/Favorites';
 import Bookshelf from './components/Bookshelf';
 import FullList from './components/Fulllist';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/favorites' exact Component={Favorites}></Route>
           <Route path='/full-list' exact Component={FullList}></Route>
         </Routes>
+        <Footer />
     </Router>
       
     </div>
